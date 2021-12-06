@@ -1,38 +1,86 @@
 .App {
-  text-align: center;
+  background-color:#007bff;
+ height:100vh;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Pricinglist{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.PricelistFree{
+  width:25%;
+}
+.PricelistPlus{
+  width:25%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.PricelistPro{
+  width:25%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+h6{
+  text-align:center;
+  text-transform:uppercase;
+  font-size:0.8rem;
+  font-weight:bold;
+  color:#b7b1b1;
+  padding:5px;
+}
+
+p{
+  text-align:center;
+  font-size: 0.6rem;
+  
+}
+span{
+  font-size:2.5rem;
+  font-weight:bold;
+}
+
+.line{
+  margin:5%;
+  height:1px;
+  background-color:#b7b1b1;
+ 
+}
+
+li{
+  list-style-type: none;
+  font-size:0.8rem;
+  line-height: 240%;
+  
+}
+button {
+        background-color: #007bffb0;
+        color: white;
+        border-radius: 1.5rem;
+        text-transform: uppercase;
+        width:90%;
+        height:2.5rem;
+        margin:1rem;
+         border: none;
+         font-weight:bold;
+         font-size: 0.6rem;
+         letter-spacing: 1px;
+    }
+
+.container-Price{
+  display:flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.container-Features{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.shady-Features{
+  color:#b7b1b1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover {
+  background-color:#007bff;
 }
