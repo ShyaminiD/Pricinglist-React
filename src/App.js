@@ -22,7 +22,7 @@ function App() {
           <Route exact path="/resources" element={<Resources />} />
         </Routes>
       </div>
-      //End of App
+     {/* End of APP */}
     </Nav>
   );
 }
